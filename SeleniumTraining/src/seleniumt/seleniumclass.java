@@ -12,7 +12,7 @@ public class seleniumclass
 		System.setProperty("webdriver.chrome.driver","C:\\JavaTraining\\chromedriver_win32\\chromedriver.exe");	
 		ChromeDriver chdriver = new ChromeDriver();
 		
-		chdriver.get("https://www.facebook.com/");
+		chdriver.get("https://www.google.com/");
 		chdriver.manage().window().maximize();
 		
 		//chdriver.findElements(By.id("email")).sendkeys()
